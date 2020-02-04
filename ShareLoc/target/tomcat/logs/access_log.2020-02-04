@@ -8,3 +8,9 @@
 0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:34:43 +0100] "GET /my-app/webapi/user/all HTTP/1.1" 404 967 http-bio-9090-exec-10 4
 0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:34:43 +0100] "GET /my-app/webapi/user/1 HTTP/1.1" 200 101 http-bio-9090-exec-10 19
 0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:34:44 +0100] "GET /my-app/webapi/user/1 HTTP/1.1" 200 101 http-bio-9090-exec-10 6
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:53:20 +0100] "GET /my-app/webapi/user/1 HTTP/1.1" 200 101 http-bio-9090-exec-3 9
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:53:24 +0100] "GET /my-app/webapi/user/1 HTTP/1.1" 200 101 http-bio-9090-exec-3 5
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:53:24 +0100] "GET /my-app/webapi/user/2 HTTP/1.1" 200 108 http-bio-9090-exec-3 6
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:53:25 +0100] "GET /my-app/webapi/user/2 HTTP/1.1" 200 108 http-bio-9090-exec-3 5
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:56:32 +0100] "GET /my-app/webapi/user/2 HTTP/1.1" 200 108 http-bio-9090-exec-9 9
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:57:09 +0100] "GET /my-app/webapi/user/2 HTTP/1.1" 200 108 http-bio-9090-exec-9 10
