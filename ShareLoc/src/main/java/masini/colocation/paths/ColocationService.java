@@ -1,4 +1,4 @@
-package masini.colocation;
+package masini.colocation.paths;
 
 import java.util.List;
 
@@ -17,7 +17,7 @@ import masini.colocation.model.User;
  * Root resource (exposed at "myresource" path)
  */
 @Path("users")
-public class MyResource {
+public class ColocationService {
 	
     /**
      * Method handling HTTP GET requests. The returned object will be sent

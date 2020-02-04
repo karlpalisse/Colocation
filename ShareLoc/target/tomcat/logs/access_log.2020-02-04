@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:33:18 +0100] "GET / HTTP/1.1" 404 - http-bio-9090-exec-1 0
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:33:23 +0100] "GET /my-app/webapi/myresource HTTP/1.1" 404 967 http-bio-9090-exec-2 63
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:33:23 +0100] "GET /favicon.ico HTTP/1.1" 404 - http-bio-9090-exec-4 0
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:33:27 +0100] "GET /my-app/webapi/myresource HTTP/1.1" 404 967 http-bio-9090-exec-3 1
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:33:30 +0100] "GET /my-app/webapi/user HTTP/1.1" 200 2 http-bio-9090-exec-6 299
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:33:31 +0100] "GET /my-app/webapi/user HTTP/1.1" 200 2 http-bio-9090-exec-7 20
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:34:31 +0100] "GET /my-app/webapi/user HTTP/1.1" 200 212 http-bio-9090-exec-9 177
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:34:43 +0100] "GET /my-app/webapi/user/all HTTP/1.1" 404 967 http-bio-9090-exec-10 4
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:34:43 +0100] "GET /my-app/webapi/user/1 HTTP/1.1" 200 101 http-bio-9090-exec-10 19
+0:0:0:0:0:0:0:1 - - [04/Feb/2020:14:34:44 +0100] "GET /my-app/webapi/user/1 HTTP/1.1" 200 101 http-bio-9090-exec-10 6
