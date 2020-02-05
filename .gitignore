@@ -1,1 +1,3 @@
-ShareLoc/pom.xml
+ShareLoc/target/*
+ShareLoc/.classpath
+ShareLoc/.project

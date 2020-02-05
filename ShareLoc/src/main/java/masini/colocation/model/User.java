@@ -5,8 +5,8 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
+
 	@Id
-	private int id;
 	private String email;
 	private String password;
 	private String firstname;
@@ -16,21 +16,12 @@ public class User {
 		
 	}
 	
-	public User(int id, String email, String password, String firstname, String lastname) {
+	public User(String email, String password, String firstname, String lastname) {
 		super();
-		this.id = id;
 		this.email = email;
 		this.password = password;
 		this.firstname = firstname;
 		this.lastname = lastname;
-	}
-	
-	public int setId(int id) {
-		return this.id = id;
-	}
-	
-	public int getId() {
-		return this.id;
 	}
 
 	public String getEmail() {
@@ -64,5 +55,12 @@ public class User {
 	public void setLastname(String lastname) {
 		this.lastname = lastname;
 	}
-	
+
+	public String getLogin() {
+		return email;
+	}
+
+	public void setLogin(String login) {
+		this.email = login;
+	}
 }
