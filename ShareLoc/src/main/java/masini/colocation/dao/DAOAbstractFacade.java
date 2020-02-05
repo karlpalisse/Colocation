@@ -87,13 +87,11 @@ public abstract class DAOAbstractFacade<T> {
 	 * 
 	 * @return
 	 */
-	public ArrayList<T> findAll() {
+	public List<T> findAll() {
 		CriteriaQuery<T> cq = (CriteriaQuery<T>) getEntityManager().getCriteriaBuilder().createQuery();
 		cq.select(cq.from(classeEntite));
-		Vector<T> v = (Vector<T>) getEntityManager().createQuery(cq).getResultList();
-		if (v!=null)
-			return new ArrayList<T>(v);
-		return null;
+		return getEntityManager().createQuery(cq).getResultList();
+		
 	}
 
 	/**
